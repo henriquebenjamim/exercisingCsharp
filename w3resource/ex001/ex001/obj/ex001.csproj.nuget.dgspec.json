@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\exercising\\w3resource\\basicExercisesCsharp\\basicExercisesCsharp\\basicExercisesCsharp.csproj": {}
+    "C:\\exercising\\w3resource\\ex001\\ex001\\ex001.csproj": {}
   },
   "projects": {
-    "C:\\exercising\\w3resource\\basicExercisesCsharp\\basicExercisesCsharp\\basicExercisesCsharp.csproj": {
+    "C:\\exercising\\w3resource\\ex001\\ex001\\ex001.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\exercising\\w3resource\\basicExercisesCsharp\\basicExercisesCsharp\\basicExercisesCsharp.csproj",
-        "projectName": "basicExercisesCsharp",
-        "projectPath": "C:\\exercising\\w3resource\\basicExercisesCsharp\\basicExercisesCsharp\\basicExercisesCsharp.csproj",
+        "projectUniqueName": "C:\\exercising\\w3resource\\ex001\\ex001\\ex001.csproj",
+        "projectName": "ex001",
+        "projectPath": "C:\\exercising\\w3resource\\ex001\\ex001\\ex001.csproj",
         "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\exercising\\w3resource\\basicExercisesCsharp\\basicExercisesCsharp\\obj\\",
+        "outputPath": "C:\\exercising\\w3resource\\ex001\\ex001\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
