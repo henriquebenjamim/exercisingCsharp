@@ -1,0 +1,16 @@
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\bin\Debug\net5.0\practiceDateTime.exe
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\bin\Debug\net5.0\practiceDateTime.deps.json
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\bin\Debug\net5.0\practiceDateTime.runtimeconfig.json
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\bin\Debug\net5.0\practiceDateTime.runtimeconfig.dev.json
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\bin\Debug\net5.0\practiceDateTime.dll
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\bin\Debug\net5.0\practiceDateTime.pdb
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.csproj.AssemblyReference.cache
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.AssemblyInfoInputs.cache
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.AssemblyInfo.cs
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.csproj.CoreCompileInputs.cache
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.dll
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\refint\practiceDateTime.dll
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.pdb
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\practiceDateTime.genruntimeconfig.cache
+C:\estudandoInterfaces\practiceDateTime\practiceDateTime\obj\Debug\net5.0\ref\practiceDateTime.dll
