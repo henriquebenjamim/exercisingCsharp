@@ -1,0 +1,15 @@
+C:\exercising\w3resource\ex003\ex003\bin\Debug\net6.0\ex003.exe
+C:\exercising\w3resource\ex003\ex003\bin\Debug\net6.0\ex003.deps.json
+C:\exercising\w3resource\ex003\ex003\bin\Debug\net6.0\ex003.runtimeconfig.json
+C:\exercising\w3resource\ex003\ex003\bin\Debug\net6.0\ex003.dll
+C:\exercising\w3resource\ex003\ex003\bin\Debug\net6.0\ex003.pdb
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.csproj.AssemblyReference.cache
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.GeneratedMSBuildEditorConfig.editorconfig
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.AssemblyInfoInputs.cache
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.AssemblyInfo.cs
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.csproj.CoreCompileInputs.cache
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.dll
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\refint\ex003.dll
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.pdb
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ex003.genruntimeconfig.cache
+C:\exercising\w3resource\ex003\ex003\obj\Debug\net6.0\ref\ex003.dll
