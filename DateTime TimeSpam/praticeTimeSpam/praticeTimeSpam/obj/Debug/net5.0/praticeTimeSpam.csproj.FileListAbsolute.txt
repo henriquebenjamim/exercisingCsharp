@@ -1,0 +1,16 @@
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\bin\Debug\net5.0\praticeTimeSpam.exe
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\bin\Debug\net5.0\praticeTimeSpam.deps.json
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\bin\Debug\net5.0\praticeTimeSpam.runtimeconfig.json
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\bin\Debug\net5.0\praticeTimeSpam.runtimeconfig.dev.json
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\bin\Debug\net5.0\praticeTimeSpam.dll
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\bin\Debug\net5.0\praticeTimeSpam.pdb
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.csproj.AssemblyReference.cache
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.GeneratedMSBuildEditorConfig.editorconfig
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.AssemblyInfoInputs.cache
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.AssemblyInfo.cs
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.csproj.CoreCompileInputs.cache
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.dll
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\refint\praticeTimeSpam.dll
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.pdb
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\praticeTimeSpam.genruntimeconfig.cache
+C:\estudandoInterfaces\praticeTimeSpam\praticeTimeSpam\obj\Debug\net5.0\ref\praticeTimeSpam.dll
