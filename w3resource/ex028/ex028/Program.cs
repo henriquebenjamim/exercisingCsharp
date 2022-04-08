@@ -14,17 +14,22 @@ namespace ex028
             Console.WriteLine("Original String:");
             string originalString = Console.ReadLine();
             string[] ori = originalString.Split(' ');
-            string reverseString;
+            
+            
             for (int i = ori.Length -1; i >= 0; i--)
             {
                 Console.WriteLine(ori[i]);
 
             }
+            //Console.WriteLine(reverseString("Henrique benjamim de brito rocha"));
         }
 
-        public static string reverseString(string original)
-        {
-            return "ok";
-        }
+        // i will create a recursive method on this
+        //public static string reverseString(string original)
+        //{
+        //    string[] ori = original.Split(' ');
+
+        //    return ori.Length > 1 ? Console.WriteLine(ori[ori.Length -1)] : original;
+        //}
     }
 }
