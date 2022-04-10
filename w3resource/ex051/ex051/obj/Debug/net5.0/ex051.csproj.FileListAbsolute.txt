@@ -1,0 +1,16 @@
+C:\exercising\w3resource\ex051\ex051\bin\Debug\net5.0\ex051.exe
+C:\exercising\w3resource\ex051\ex051\bin\Debug\net5.0\ex051.deps.json
+C:\exercising\w3resource\ex051\ex051\bin\Debug\net5.0\ex051.runtimeconfig.json
+C:\exercising\w3resource\ex051\ex051\bin\Debug\net5.0\ex051.runtimeconfig.dev.json
+C:\exercising\w3resource\ex051\ex051\bin\Debug\net5.0\ex051.dll
+C:\exercising\w3resource\ex051\ex051\bin\Debug\net5.0\ex051.pdb
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.csproj.AssemblyReference.cache
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.GeneratedMSBuildEditorConfig.editorconfig
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.AssemblyInfoInputs.cache
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.AssemblyInfo.cs
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.csproj.CoreCompileInputs.cache
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.dll
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\refint\ex051.dll
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.pdb
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ex051.genruntimeconfig.cache
+C:\exercising\w3resource\ex051\ex051\obj\Debug\net5.0\ref\ex051.dll
