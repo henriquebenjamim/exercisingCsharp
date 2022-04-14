@@ -21,15 +21,23 @@ namespace ex066
                     char[] converting = number.ToCharArray();
                     if((int)converting[0] > (int)converting[1])
                     {
-                        Console.WriteLine(converting[0]);
+                        Console.WriteLine(converting[1]);
                     }
                     else if((int)converting[0] < (int)converting[1])
                     {
-                        Console.WriteLine(converting[1]);
+                        Console.WriteLine(converting[0]);
                     }
 
                 }
             }
+
+            
+            Console.WriteLine(minimumValue("40", "35"));
+        }
+
+        public static int minimumValue(string numberOne, string numberTwo)
+        {
+            return Int32.Parse(numberOne) > Int32.Parse(numberTwo) ? Int32.Parse(numberTwo) : Int32.Parse(numberOne);
         }
     }
 }
