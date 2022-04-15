@@ -17,7 +17,31 @@ namespace ex071
             //Original string: PPHP
             //Test for consecutive similar letters! True
 
+            Console.WriteLine("Original string: ");
+            string word = Console.ReadLine();
 
+            Console.WriteLine(twoSimilars(word));
+        }
+
+        public static string twoSimilars(string word)
+        {
+            string answer = "";
+            for (int i = 0; i <= word.Length - 1; i++)
+            {
+                if (i < word.Length - 1)
+                {
+                    if (word[i] == word[i + 1])
+                    {
+                        answer = "True";
+                        break;
+                    }
+                }
+                if (i == word.Length - 1 && answer != "True")
+                {
+                    answer = "False";
+                }
+            }
+            return answer;
         }
     }
 }
