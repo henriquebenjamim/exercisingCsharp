@@ -12,6 +12,16 @@ namespace ex072
             //Check the average value of the said array is a whole number or not: True
             //nums1 = { 2, 4, 2, 6, 4, 8 }
             //Check the average value of the said array is a whole number or not: False
+
+            int[] numbers = { 2, 4, 2, 6, 4, 8 };
+            double countingValues = 0;
+            double average = countingValues / numbers.Length;
+
+            foreach(int value in numbers)
+            {
+                countingValues += value;
+            }
+            Console.WriteLine(average % 1 != 0);
         }
     }
 }
