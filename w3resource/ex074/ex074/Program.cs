@@ -14,6 +14,18 @@ namespace ex074
             //Convert the letters of the said string into alphabetical order: Even length
             //Original string: python
             //Convert the letters of the said string into alphabetical order: Even length
+
+            Console.Write("Original string: ");
+            string word = Console.ReadLine();
+
+            if(word.Length % 2 != 0)
+            {
+                Console.WriteLine("Convert the letters of the said string into alphabetical order: Odd length");
+            }
+            else
+            {
+                Console.WriteLine("Convert the letters of the said string into alphabetical order: Even lenght");
+            }
         }
     }
 }
