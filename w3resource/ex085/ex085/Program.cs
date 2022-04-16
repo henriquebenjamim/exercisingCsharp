@@ -17,6 +17,23 @@ namespace ex085
             //1.2 -3 4.1 6 -5.47
             //Cumulative sum of the said array elements:
             //1.2 -1.8 2.3 8.3 2.83
+
+
+            int[] arr1 = { 1, 3, 4, 5, 6, 7 };
+            int acu = 0;
+            Console.WriteLine("Original Array elements: ");
+            foreach(int c in arr1)
+            {
+                Console.Write($"{c} ");
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Cumulative sum of the said array elements: ");
+            foreach(int c in arr1)
+            {
+                acu += c;
+                Console.Write($"{acu} ");
+            }
         }
     }
 }
