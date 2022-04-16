@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex083
 {
@@ -14,6 +15,24 @@ namespace ex083
             //After removing all the vowels from the said string: C Shrp
             //Orginal string: JavaScript
             //After removing all the vowels from the said string: JvScrpt
+
+            Console.Write("Give me a string: ");
+            string word = Console.ReadLine();
+
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+
+            foreach(char c in word)
+            {
+                if(vowels.Contains(c))
+                {
+                    continue;
+                }
+                else
+                {
+                    Console.Write($"{c}");
+                }
+            }
+
         }
     }
 }
