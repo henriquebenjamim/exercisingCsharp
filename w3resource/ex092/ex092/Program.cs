@@ -21,6 +21,25 @@ namespace ex092
             //Next prime number / Current prime number: 43
             //Original number: 4433
             //Next prime number / Current prime number: 4441
+
+            Console.WriteLine(primerNumbers(120));
+            Console.WriteLine(primerNumbers(321));
+
+        }
+
+        public static string primerNumbers(int number)
+        {
+            int originalNumber = number;
+            for(int i = 2; i < number; i++)
+            {
+                if(number % i == 0)
+                {
+                    number++; i = 2; 
+                }
+            }
+
+            return $"Original number: {originalNumber}\n" +
+                $"Next prime number or Current prime number = {number}\n";
         }
     }
 }
