@@ -12,6 +12,16 @@ namespace ex077
             //Is 'Exercises' is plural ? True
             //Is 'Books' is plural ? True
             //Is 'Book' is plural ? False
+
+            Console.Write("Give me a word: ");
+            string word = Console.ReadLine();
+
+            Console.WriteLine(plural(word));
+        }
+
+        public static bool plural(string str)
+        {
+            return str[str.Length - 1] != 's' ? false : true;
         }
     }
 }
