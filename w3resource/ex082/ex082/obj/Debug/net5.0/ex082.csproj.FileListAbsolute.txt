@@ -1,0 +1,16 @@
+C:\exercising\w3resource\ex082\ex082\bin\Debug\net5.0\ex082.exe
+C:\exercising\w3resource\ex082\ex082\bin\Debug\net5.0\ex082.deps.json
+C:\exercising\w3resource\ex082\ex082\bin\Debug\net5.0\ex082.runtimeconfig.json
+C:\exercising\w3resource\ex082\ex082\bin\Debug\net5.0\ex082.runtimeconfig.dev.json
+C:\exercising\w3resource\ex082\ex082\bin\Debug\net5.0\ex082.dll
+C:\exercising\w3resource\ex082\ex082\bin\Debug\net5.0\ex082.pdb
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.csproj.AssemblyReference.cache
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.GeneratedMSBuildEditorConfig.editorconfig
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.AssemblyInfoInputs.cache
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.AssemblyInfo.cs
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.csproj.CoreCompileInputs.cache
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.dll
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\refint\ex082.dll
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.pdb
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ex082.genruntimeconfig.cache
+C:\exercising\w3resource\ex082\ex082\obj\Debug\net5.0\ref\ex082.dll

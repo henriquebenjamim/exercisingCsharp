@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ex082
 {
@@ -17,6 +18,21 @@ namespace ex082
             //Remove all characters from the said string which are non-letters: Python
             //Orginal string: 2 ^ sdfds * ^*^jlljdslfnoswje34u230sdfds984
             //Remove all characters from the said string which are non-letters: sdfdsjlljdslfnoswjeusdfds
+
+            //065 - 090(A to Z)
+            //097 - 122(a to z)
+
+            Console.Write("Give me a string: ");
+            string str = Console.ReadLine();
+            byte[] asciiBytes = Encoding.ASCII.GetBytes(str);
+            
+            foreach(byte value in asciiBytes)
+            {
+                if((value >= 65 && value <= 90) || (value >= 97 && value <= 122))
+                {
+                    Console.Write(Convert.ToChar(value));
+                }
+            }
         }
     }
 }
