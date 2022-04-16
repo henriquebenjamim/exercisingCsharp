@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ex076
 {
@@ -12,6 +13,15 @@ namespace ex076
             //Ascii value of A is: 65
             //Ascii value of a is: 97
             //Ascii value of # is: 35
+
+            Console.Write("Give me a value: ");
+            string str = Console.ReadLine();
+
+            byte[] asciiBytes = Encoding.ASCII.GetBytes(str);
+            foreach(byte value in asciiBytes)
+            {
+                Console.WriteLine($"Ascii value of {str} is: {value}");
+            }
         }
     }
 }
