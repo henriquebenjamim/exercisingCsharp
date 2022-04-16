@@ -14,6 +14,29 @@ namespace ex079
             //Original value and type: 122, System.Int32
             //Convert integer to string:
             //Return value and type: 122, System.String
+
+            Console.Write("Give me a value: ");
+            string str = Console.ReadLine();
+            Console.WriteLine($"Original value and type: {str}, {str.GetType()}");
+            Console.WriteLine("Convert string to integer: ");
+            Console.WriteLine($"Return value and type: {strToInt(str)}, {strToInt(str).GetType()}");
+
+            Console.WriteLine();
+            Console.Write("Give me another value: ");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Original value and type: {number}, {number.GetType()}");
+            Console.WriteLine("Convert string to integer: ");
+            Console.WriteLine($"Return value and type: {intToStr(number)}, {intToStr(number).GetType()}");
+        }
+
+        public static int strToInt(string str)
+        {
+            return int.Parse(str);
+        }
+
+        public static string intToStr(int number)
+        {
+            return number.ToString();
         }
     }
 }
