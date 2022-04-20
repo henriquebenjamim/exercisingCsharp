@@ -12,10 +12,31 @@ namespace ex028
             //"caabb"
             //"babaaba"
             //"aaaaa"
+
             //Expected Output:
             //True
             //False
             //True
+
+            Console.WriteLine(checkConsecutiveChars("caabb"));
+            Console.WriteLine(checkConsecutiveChars("babaaba"));
+            Console.WriteLine(checkConsecutiveChars("aaaaa"));
+
+        }
+
+        public static bool checkConsecutiveChars(string str)
+        {
+            bool answer = false;
+            int searchingIndx = str.IndexOf('a');
+            if(searchingIndx + 1 <= str.Length)
+            {
+                if (str[searchingIndx] == str[searchingIndx + 1])
+                {
+                    answer = true;
+                }
+            }
+
+            return answer;
         }
     }
 }
