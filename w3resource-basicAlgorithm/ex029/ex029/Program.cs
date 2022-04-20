@@ -16,6 +16,27 @@ namespace ex029
             //Pto
             //PP
             //J
+
+            Console.WriteLine(removingChars(("Python")));
+            Console.WriteLine(removingChars(("PHP")));
+            Console.WriteLine(removingChars("JS"));
+            
         }
+
+        public static string removingChars(string str)
+        {
+            string word = string.Empty;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (word[i] % 2 == 0)
+                {
+                    str += word[i];
+                }
+            }
+
+            return word;
+        }
+
     }
 }
