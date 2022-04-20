@@ -16,6 +16,25 @@ namespace ex030
             //aababcabcd
             //aababc
             //a
+
+            string[] arrString = { "a", "ab", "abc", "abcd" };
+            Console.Write("Give me a string: ");
+            string word = Console.ReadLine();
+
+            for(int i = 0; i <= word.Length -1; i++)
+            {   
+                
+                if(arrString[i] == word)
+                {
+                    Console.Write(arrString[i]);
+                    break;
+                }
+                else
+                {
+                    Console.Write(arrString[i]);
+                }
+            }
         }
+
     }
 }
