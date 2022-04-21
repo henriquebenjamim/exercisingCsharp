@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex025
 {
@@ -16,6 +17,15 @@ namespace ex025
             //JSJS
             //JSJSJS
             //JS
+
+            Console.WriteLine(repStr("JS", 2));
+            Console.WriteLine(repStr("JS", 3));
+            Console.WriteLine(repStr("JS", 1));
+        }
+
+        public static string repStr(string str, int numberRep)
+        {   
+            return string.Concat(Enumerable.Repeat(str, numberRep));
         }
     }
 }
