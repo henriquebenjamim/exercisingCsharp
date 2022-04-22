@@ -18,6 +18,19 @@ namespace ex023
             //True
             //True
             //False
+
+            Console.WriteLine(checkNonNegativeInt(123, 456));
+            Console.WriteLine(checkNonNegativeInt(12, 512));
+            Console.WriteLine(checkNonNegativeInt(7, 87));
+            Console.WriteLine(checkNonNegativeInt(12, 45));
+        }
+
+        public static bool checkNonNegativeInt(int numberOne, int numberTwo)
+        {
+            string firstNumber = numberOne.ToString();
+            string secondNumber = numberTwo.ToString();
+            return (firstNumber[firstNumber.Length - 1] == secondNumber[secondNumber.Length - 1]) ? true : false;
+            
         }
     }
 }
