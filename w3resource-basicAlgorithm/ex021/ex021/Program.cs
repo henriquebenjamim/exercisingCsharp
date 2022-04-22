@@ -18,6 +18,49 @@ namespace ex021
             //30
             //25
             //28
+
+            Console.WriteLine(checkRangeNumbers(78, 95));
+            Console.WriteLine(checkRangeNumbers(20, 30));
+            Console.WriteLine(checkRangeNumbers(21, 25));
+            Console.WriteLine(checkRangeNumbers(28, 28));
+        }
+
+        public static int checkRangeNumbers(int numberOne, int numberTwo)
+        {
+            int answer = 0;
+
+            if(numberOne < 20 && numberOne > 30 && numberTwo < 20 && numberTwo > 30)
+            {
+                return answer;
+            }
+            else
+            {
+                if((numberOne >= 20 && numberOne <= 30) || (numberTwo >= 20 && numberTwo <= 30))
+                {
+                    if((numberOne >= 20 && numberOne <=30) && (numberTwo < 20 && numberTwo > 30))
+                    {
+                        answer = numberOne;
+                    }
+                    else if((numberOne < 20 && numberOne > 30) && (numberTwo >= 20 && numberTwo <= 30))
+                    {
+                        answer = numberTwo;
+                    }
+                    else
+                    {
+                        int firstSubtract = numberOne - numberTwo;
+                        int secondSubtract = numberTwo - numberOne;
+                        if (firstSubtract > secondSubtract)
+                        {
+                            answer = numberOne;
+                        }
+                        else
+                        {
+                            answer = numberTwo;
+                        }
+                    }
+                }
+            }
+            return answer;
         }
     }
 }
