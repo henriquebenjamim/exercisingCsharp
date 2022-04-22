@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex022
 {
@@ -23,6 +24,20 @@ namespace ex022
             //False
             //True
             //False
+
+            Console.WriteLine(countingZ("frizz"));
+            Console.WriteLine(countingZ("zane"));
+            Console.WriteLine(countingZ("Zazz"));
+            Console.WriteLine(countingZ("false"));
+            Console.WriteLine(countingZ("zzzz"));
+            Console.WriteLine(countingZ("ZZZZ"));
+        }
+
+        public static bool countingZ(string str)
+        {
+            int countingLetterZ = str.Count(x => x == 'z');
+
+            return (countingLetterZ >= 2 && countingLetterZ <= 4) ? true : false;
         }
     }
 }
