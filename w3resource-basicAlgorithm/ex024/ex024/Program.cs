@@ -18,6 +18,18 @@ namespace ex024
             //JavascrIPT
             //JS
             //PHP
+
+            Console.WriteLine(someUpper("Python"));
+            Console.WriteLine(someUpper("Javascript"));
+            Console.WriteLine(someUpper("js"));
+            Console.WriteLine(someUpper("PHP"));
+
+        }
+
+        public static string someUpper(string str)
+        {
+            int cutting = str.Length - 3;
+            return str.Length >= 3 ? str.Substring(0, cutting) + str.Substring(cutting).ToUpper() : str.ToUpper();
         }
     }
 }
