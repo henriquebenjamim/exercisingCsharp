@@ -18,6 +18,26 @@ namespace ex031
             //2
             //3
             //0
+
+            Console.WriteLine(countingSub("abcdsab"));
+            Console.WriteLine(countingSub("abcdsabab"));
+            Console.WriteLine(countingSub("abcabdabab"));
+            Console.WriteLine(countingSub("abcabd"));
+        }
+
+        public static int countingSub(string s)
+        {
+            int counting = 0;
+
+            for(int i = 0; i < s.Length -2; i++)
+            {
+                if(s.Substring(i, 2).Equals(s.Substring(s.Length - 2)))
+                {
+                    counting += 1;
+                }
+            }
+
+            return counting;
         }
     }
 }
