@@ -18,6 +18,16 @@ namespace ex042
             //True
             //True
             //False
+
+            Console.WriteLine(multipleMoreThirtheen(13));
+            Console.WriteLine(multipleMoreThirtheen(14));
+            Console.WriteLine(multipleMoreThirtheen(27));
+            Console.WriteLine(multipleMoreThirtheen(41));
+        }
+
+        public static bool multipleMoreThirtheen(int number)
+        {
+            return (number % 13 == 0) || (number % 13 == 1) ? true : false;
         }
     }
 }
