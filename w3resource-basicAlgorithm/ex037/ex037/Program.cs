@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex037
 {
@@ -16,6 +17,27 @@ namespace ex037
             //Pyon
             //JaScpt
             //HT
+
+            Console.WriteLine(creatingSpecificString("Python"));
+            Console.WriteLine(creatingSpecificString("Henrique"));
+            Console.WriteLine(creatingSpecificString("JavaScript"));
+            Console.WriteLine(creatingSpecificString("HTML"));
+        }
+
+        public static string creatingSpecificString(string str)
+        {
+            int[] indexArr = { 0, 1, 4, 5, 8, 9 };
+            var newStr = string.Empty;
+
+            for(int i = 0; i <= str.Length -1; i++)
+            {
+                if (indexArr.Contains(str.IndexOf(str[i])))
+                {
+                    newStr += str[i];  
+                }
+            }
+
+            return newStr;
         }
     }
 }
