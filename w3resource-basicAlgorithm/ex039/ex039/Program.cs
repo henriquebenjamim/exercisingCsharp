@@ -16,6 +16,24 @@ namespace ex039
             //False
             //False
             //True
+
+            Console.WriteLine(tripleRow(new[] {1, 1, 2, 2, 1}));
+            Console.WriteLine(tripleRow(new[] { 1, 1, 2, 1, 2, 3}));
+            Console.WriteLine(tripleRow(new[] { 1, 1, 1, 2, 2, 2, 1}));
+        }
+
+        public static bool tripleRow(int[] numbersArr)
+        {
+            int countingTriples = 0;
+
+            for (int i = 0; i <= numbersArr.Length - 3; i++)
+            {
+                if(numbersArr[i] == numbersArr[i+1] && numbersArr[i+1] == numbersArr[i+2])
+                {
+                    countingTriples += 1;
+                }
+            }
+            return countingTriples >= 1 ? true : false;
         }
     }
 }
