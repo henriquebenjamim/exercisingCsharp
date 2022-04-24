@@ -16,6 +16,31 @@ namespace ex043
             //True
             //True
             //False
+
+            Console.WriteLine(multipleThreeSeven(3));
+            Console.WriteLine(multipleThreeSeven(7));
+            Console.WriteLine(multipleThreeSeven(21));
+        }
+
+        public static bool multipleThreeSeven(int number)
+        {
+            bool answer = false;
+            if(number % 3 == 0)
+            {
+                if(number % 7 != 0)
+                {
+                    answer = true;
+                }
+            }
+            else if(number % 7 == 0)
+            {
+                if(number % 3 != 0)
+                {
+                    answer = true;
+                }
+            }
+
+            return answer;
         }
     }
 }
