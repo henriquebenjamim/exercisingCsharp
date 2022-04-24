@@ -10,12 +10,33 @@ namespace ex038
 
             //Sample Input:
             //{ 5, 5, 2 }
-            //            { 5, 5, 2, 5, 5 }
-            //            { 5, 6, 2, 9}
-            //            Expected Output:
+            //{ 5, 5, 2, 5, 5 }
+            //{ 5, 6, 2, 9}
+            //Expected Output:
             //1
             //2
             //1
+            Console.WriteLine(countingFive(new[] { 5, 5, 2}));
+            Console.WriteLine(countingFive(new[] {5, 5, 2, 5, 5}));
+            Console.WriteLine(countingFive(new[] {5, 6, 2, 9}));
+        }
+
+        public static int countingFive(int[] numbersArr)
+        {
+            int counting = 0;
+
+            for(int i = 0; i < numbersArr.Length -1; i++)
+            {
+                if(numbersArr[i] == 5)
+                {
+                    if(numbersArr[i + 1] == 5 || numbersArr[i + 1] == 6)
+                    {
+                        counting += 1;
+                    }
+                }
+            }
+
+            return counting;
         }
     }
 }
