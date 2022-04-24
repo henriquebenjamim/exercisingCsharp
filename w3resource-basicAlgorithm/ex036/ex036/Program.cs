@@ -16,6 +16,24 @@ namespace ex036
             //xHix
             //abxdddca
             //xajhtrb
+
+            Console.WriteLine(removingSpecificCharac("xxHxix", 'x'));
+            Console.WriteLine(removingSpecificCharac("abxdddca", 'a'));
+            Console.WriteLine(removingSpecificCharac("xabjbhtrb", 'b'));
+        }
+
+        public static string removingSpecificCharac(string str, char milionaire)
+        {
+            for(int i = 1; i < str.Length - 2; i++)
+            {
+                if(str[i] == milionaire)
+                {
+                    str = str.Remove(i, 1);
+                }
+            }
+            return str;
         }
     }
+
+
 }
