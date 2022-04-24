@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex033
 {
@@ -16,6 +17,18 @@ namespace ex033
             //True
             //True
             //False
+
+            int[] firstArr = { 1, 2, 9, 3 };
+            int[] secondArr = { 1, 2, 3, 4, 5, 6 };
+
+            Console.WriteLine(checkEquals(firstArr, 3));
+            Console.WriteLine(checkEquals(secondArr, 2));
+            Console.WriteLine(checkEquals(new[] {1, 2, 2, 3}, 9));
+        }
+
+        public static bool checkEquals(int[] numberArr, int number)
+        {
+            return numberArr.Any(x => x == number) ? true : false;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex032
 {
@@ -16,6 +17,20 @@ namespace ex032
             //True
             //True
             //False
+
+            int[] numberOneArr = { 1, 2, 9, 3 };
+            int[] numberTwoArr = { 1, 2, 2, 3 };
+            int[] numberThreeArr = { 1, 2, 2, 3 };
+
+            Console.WriteLine(checkNumber(numberOneArr, 3));
+            Console.WriteLine(checkNumber(numberTwoArr, 2));
+            Console.WriteLine(checkNumber(numberThreeArr, 9));
+
+        }
+
+        public static bool checkNumber(int[] arrNumbers, int number)
+        {
+            return arrNumbers.Contains(number) ? true : false;
         }
     }
 }
