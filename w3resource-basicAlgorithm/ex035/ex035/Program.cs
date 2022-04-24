@@ -16,6 +16,27 @@ namespace ex035
             //1
             //1
             //2
+
+            Console.Write("Give me the first string: ");
+            string firstWord = Console.ReadLine();
+            
+            Console.Write("Give me the second string: ");
+            string secondWord = Console.ReadLine();
+
+            int counting = 0;
+            for(int i = 0; i < firstWord.Length -1; i++)
+            {
+                string subWordOne = firstWord.Substring(i, 2);
+                for(int j = 0; j < secondWord.Length -1; j++)
+                {
+                    string subWordTwo = secondWord.Substring(j, 2);
+                    if(subWordOne.Equals(subWordTwo))
+                    {
+                        counting += 1;
+                    }
+                }
+            }
+            Console.WriteLine(counting);
         }
     }
 }

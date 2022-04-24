@@ -10,9 +10,9 @@ namespace ex034
 
             //Sample Input:
             //{ 1,1,2,3,1}
-            //            { 1,1,2,4,1}
-            //            { 1,1,2,1,2,3}
-            //            Expected Output:
+            //{ 1,1,2,4,1}
+            //{ 1,1,2,1,2,3}
+            //Expected Output:
             //True
             //False
             //True
