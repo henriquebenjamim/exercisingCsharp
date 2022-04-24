@@ -18,6 +18,17 @@ namespace ex040
             //30
             //39
             //30
+
+            Console.WriteLine(sumRangeTenTwenty(12, 17));
+            Console.WriteLine(sumRangeTenTwenty(2, 17));
+            Console.WriteLine(sumRangeTenTwenty(22, 17));
+            Console.WriteLine(sumRangeTenTwenty(20, 0));
+        }
+
+        public static int sumRangeTenTwenty(int numberOne, int numberTwo)
+        {
+            int sum = numberOne + numberTwo;
+            return sum >= 10 && sum <= 20 ? 30 : sum;
         }
     }
 }
