@@ -16,6 +16,15 @@ namespace ex047
             //True
             //False
             //True
+
+            Console.WriteLine(checkSums(1, 2, 3));
+            Console.WriteLine(checkSums(4, 5, 6));
+            Console.WriteLine(checkSums(-1, 1, 0));
+        }
+
+        public static bool checkSums(int x, int y, int z)
+        {
+            return x == y + z || y == x + z || z == y + x ? true : false;
         }
     }
 }
