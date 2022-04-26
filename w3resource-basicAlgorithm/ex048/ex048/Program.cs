@@ -16,6 +16,15 @@ namespace ex048
             //True
             //True
             //False
+
+            Console.WriteLine(greaterThen(1, 2, 3));
+            Console.WriteLine(greaterThen(4, 5, 6));
+            Console.WriteLine(greaterThen(-1, 1, 0));
+        }
+
+        public static bool greaterThen(int x, int y, int z)
+        {
+            return z > y && y > x;
         }
     }
 }
