@@ -19,6 +19,37 @@ namespace ex049
             //True
             //False
             //True
+
+            Console.WriteLine(strictIncreasingOrder(1, 2, 3, false));
+            Console.WriteLine(strictIncreasingOrder(1, 2, 3, true));
+            Console.WriteLine(strictIncreasingOrder(10, 2, 30, false));
+            Console.WriteLine(strictIncreasingOrder(10, 10, 30, true));
+        }
+
+        public static bool strictIncreasingOrder(int numberOne, int numberTwo, int numberThree, bool equalsConditions)
+        {
+            if (equalsConditions == true)
+            {
+                if(numberOne <= numberTwo && numberTwo <= numberThree)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                if (numberOne < numberTwo && numberTwo < numberThree)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
         }
     }
 }
