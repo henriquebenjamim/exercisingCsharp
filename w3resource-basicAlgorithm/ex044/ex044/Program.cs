@@ -18,6 +18,10 @@ namespace ex044
             //False
             //True
             //True
+
+            Console.Write("Give me a number: ");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine(number % 10 <= 2 || number % 10 >= 8);
         }
     }
 }
