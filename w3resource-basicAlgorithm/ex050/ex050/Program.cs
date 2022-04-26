@@ -16,6 +16,17 @@ namespace ex050
             //True
             //True
             //False
+
+            Console.WriteLine(checkRightDigit(11, 21, 31));
+            Console.WriteLine(checkRightDigit(11, 22, 31));
+            Console.WriteLine(checkRightDigit(11, 22, 33));
+            Console.WriteLine(checkRightDigit(44, 12, 43));
+            Console.WriteLine(checkRightDigit(15, 25, 35));
+        }
+
+        public static bool checkRightDigit(int numberOne, int numberTwo, int numberThree)
+        {
+            return numberOne % 10 == numberTwo % 10 || numberOne % 10 == numberThree % 10 || numberTwo % 10 == numberThree % 10;
         }
     }
 }
