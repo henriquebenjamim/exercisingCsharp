@@ -18,6 +18,17 @@ namespace ex045
             //18
             //18
             //241
+
+            Console.WriteLine(givenIntegers(3, 7));
+            Console.WriteLine(givenIntegers(10, 11));
+            Console.WriteLine(givenIntegers(10, 20));
+            Console.WriteLine(givenIntegers(21, 220));
+        }
+
+        public static int givenIntegers(int numberOne, int numberTwo)
+        {
+            int sum = numberOne + numberTwo;
+            return (numberOne >= 10 && numberOne <= 20) || (numberTwo >= 10 && numberTwo <= 20) ? 18 : sum;
         }
     }
 }
