@@ -16,6 +16,30 @@ namespace ex053
             //True
             //False
             //True
+
+            Console.WriteLine(checkRangeNumbers(11, 21));
+            Console.WriteLine(checkRangeNumbers(11, 20));
+            Console.WriteLine(checkRangeNumbers(10, 10));
+        }
+        
+        public static bool checkRangeNumbers(int numberOne, int numberTwo)
+        {
+            string firstOne = numberOne.ToString();
+            string secondOne = numberTwo.ToString();
+
+            int counting = 0;
+            for (int i = 0; i < 2; i++)
+            {
+                if(i != 1)
+                {
+                    if (firstOne[i] == secondOne[i] || firstOne[i] == secondOne[i + 1])
+                    {
+                        counting += 1;
+                    }
+                }
+            }
+
+            return (numberOne >= 10 && numberOne <= 99) && (numberTwo >= 10 && numberTwo <= 99) && counting >= 1 ? true : false;
         }
     }
 }
