@@ -17,6 +17,23 @@ namespace ex052
             //21
             //20
             //0
+
+            Console.WriteLine(twoIntegers(11, 21));
+            Console.WriteLine(twoIntegers(11, 20));
+            Console.WriteLine(twoIntegers(10, 10));
+        }
+
+        public static int twoIntegers(int numberOne, int numberTwo)
+        {
+            if (numberOne == numberTwo)
+            {
+                return 0;
+            }
+            if (numberOne % 7 == numberTwo % 7)
+            {
+                return (numberOne < numberTwo) ? numberOne : numberTwo;
+            }
+            return (numberOne > numberTwo) ? numberOne : numberTwo;
         }
     }
 }
