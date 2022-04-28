@@ -17,6 +17,15 @@ namespace ex054
             //9
             //7
             //20
+
+            Console.WriteLine(sumNonNegative(4, 5));
+            Console.WriteLine(sumNonNegative(7, 4));
+            Console.WriteLine(sumNonNegative(10, 10));
+        }
+
+        public static int sumNonNegative(int numberOne, int numberTwo)
+        {
+            return (numberOne + numberTwo).ToString().Length > numberOne.ToString().Length ? numberOne : numberOne + numberTwo;
         }
     }
 }
