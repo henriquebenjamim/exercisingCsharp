@@ -14,6 +14,14 @@ namespace ex061
             //Expected Output:
             //[[Hello]]
             //((Hi))
+
+            Console.WriteLine(addInTheMiddle("[[]]", "Hello"));
+            Console.WriteLine(addInTheMiddle("(())", "Hi"));
+        }
+
+        public static string addInTheMiddle(string str1, string str2)
+        {
+            return $"{str1.Substring(0, 2)}{str2}{str1.Substring(2)}";
         }
     }
 }
