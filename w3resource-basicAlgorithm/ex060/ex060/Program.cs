@@ -14,6 +14,15 @@ namespace ex060
             //Expected Output:
             //HiHelloHelloHi
             //whatsappappwhats
+
+            Console.WriteLine(oneTwoTwoOne("Hi", "Hello"));
+            Console.WriteLine(oneTwoTwoOne("whats", "app"));
+            Console.WriteLine(oneTwoTwoOne("one","two"));
+        }
+
+        public static string oneTwoTwoOne(string str1, string str2)
+        {
+            return $"{str1}{str2}{str2}{str1}";
         }
     }
 }
