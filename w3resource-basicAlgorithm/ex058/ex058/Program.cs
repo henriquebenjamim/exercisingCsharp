@@ -18,6 +18,19 @@ namespace ex058
             //12
             //13
             //0
+
+            Console.WriteLine(nearestThirteen(4, 5));
+            Console.WriteLine(nearestThirteen(7, 12));
+            Console.WriteLine(nearestThirteen(10, 13));
+            Console.WriteLine(nearestThirteen(17, 33));
         }
+
+        public static int nearestThirteen(int numberOne, int numberTwo)
+        {
+
+            return numberOne > 13 || numberTwo > 13 ? 0 :
+            numberTwo - 13 > numberOne - 13 ? numberTwo : numberOne;
+        }
+
     }
 }
