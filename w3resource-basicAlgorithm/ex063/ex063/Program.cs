@@ -17,6 +17,16 @@ namespace ex063
             //He
             //Hi
             //H
+
+            Console.WriteLine(firstTwo("Hello"));
+            Console.WriteLine(firstTwo("Hi"));
+            Console.WriteLine(firstTwo("H"));
+            Console.WriteLine(firstTwo(" "));
+        }
+
+        public static string firstTwo(string str)
+        {
+            return str.Length >= 2 ? str.Substring(0, 2) : str;
         }
     }
 }
