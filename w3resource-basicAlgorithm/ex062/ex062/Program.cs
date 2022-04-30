@@ -14,6 +14,14 @@ namespace ex062
             //Expected Output:
             //lololo
             //HiHiHi
+
+            Console.WriteLine(threeCopies("Hello"));
+            Console.WriteLine(threeCopies("Hi"));
+        }
+
+        public static string threeCopies(string str)
+        {
+            return str.Length > 2 ? $"{str.Substring(str.Length - 2)}{str.Substring(str.Length - 2)}{str.Substring(str.Length - 2)}" : $"{str}{str}{str}";
         }
     }
 }
