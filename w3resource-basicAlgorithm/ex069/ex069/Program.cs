@@ -14,6 +14,16 @@ namespace ex069
             //Expected Output:
             //loHel
             //JS
+
+            Console.WriteLine(lastTwoToStart("Hello"));
+            Console.WriteLine(lastTwoToStart("Hi"));
+            Console.WriteLine(lastTwoToStart("JS"));
+
+        }
+
+        public static string lastTwoToStart(string str)
+        {
+            return str.Length >= 2 ? $"{str.Substring(str.Length - 2)}{str.Substring(0, str.Length - 2)}" : str;
         }
     }
 }
