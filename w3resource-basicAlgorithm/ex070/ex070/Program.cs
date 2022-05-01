@@ -14,6 +14,15 @@ namespace ex070
             //""
             //Expected Output:
             //ell
+
+            Console.WriteLine(withoutFirstLast("Hello"));
+            Console.WriteLine(withoutFirstLast("JS"));
+            Console.WriteLine(withoutFirstLast(""));
+        }
+
+        public static string withoutFirstLast(string str)
+        {
+            return str.Length > 2 ? str.Substring(1, str.Length - 2) : "";
         }
     }
 }
