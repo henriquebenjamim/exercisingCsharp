@@ -14,6 +14,14 @@ namespace ex067
             //Expected Output:
             //elloi
             //Sython
+
+            Console.WriteLine(concatWithoutFirst("Hello", "Hi"));
+            Console.WriteLine(concatWithoutFirst("JS", "Python"));
+        }
+
+        public static string concatWithoutFirst(string firstStr, string secondStr)
+        {
+            return firstStr.Length > 2 ? $"{firstStr.Substring(1)}{secondStr.Substring(1)}" : $"{firstStr.Substring(1)}{secondStr.Substring(1)}";
         }
     }
 }
