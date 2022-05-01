@@ -14,6 +14,14 @@ namespace ex066
             //Expected Output:
             //HelloHiHello
             //PythonJSPython
+
+            Console.WriteLine(biggerLowerbigger("Hello", "Hi"));
+            Console.WriteLine(biggerLowerbigger("JS", "Python"));
+        }
+
+        public static string biggerLowerbigger(string firstStr, string secondStr)
+        {
+            return firstStr.Length >= secondStr.Length ? $"{firstStr}{secondStr}{firstStr}" : $"{secondStr}{firstStr}{secondStr}";
         }
     }
 }
