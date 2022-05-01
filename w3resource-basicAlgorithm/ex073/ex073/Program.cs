@@ -18,6 +18,18 @@ namespace ex073
             //Pyon
             //on
             //oo
+
+            Console.WriteLine(nCharactersStr("Hello", 1));
+            Console.WriteLine(nCharactersStr("Python", 2));
+            Console.WriteLine(nCharactersStr("on", 1));
+            Console.WriteLine(nCharactersStr("o", 1));
+        }
+
+        public static string nCharactersStr(string str, int quantityNumbers)
+        {   
+            
+            string repeatedString = new string(str[0], quantityNumbers+1);
+            return str.Length > 1? str.Substring(0, quantityNumbers ) + str.Substring(str.Length - quantityNumbers) : repeatedString;
         }
     }
 }
