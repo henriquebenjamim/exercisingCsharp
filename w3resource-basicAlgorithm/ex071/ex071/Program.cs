@@ -14,6 +14,16 @@ namespace ex071
             //Expected Output:
             //el
             //JS
+
+            Console.WriteLine(middleCharsStr("Hell"));
+            Console.WriteLine(middleCharsStr("JS"));
+            Console.WriteLine(middleCharsStr("Henrique"));
+        }
+
+        public static string middleCharsStr(string str)
+        {
+            int middleInd = str.Length / 2;
+            return str.Length > 2 ? str.Substring(middleInd - 1, middleInd) : str;
         }
     }
 }

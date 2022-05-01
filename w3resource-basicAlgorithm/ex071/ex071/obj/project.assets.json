@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Henrique\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Riquinho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\exercising\\w3resource-basicAlgorithm\\ex071\\ex071\\ex071.csproj",
+      "projectUniqueName": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex071\\ex071\\ex071.csproj",
       "projectName": "ex071",
-      "projectPath": "C:\\exercising\\w3resource-basicAlgorithm\\ex071\\ex071\\ex071.csproj",
-      "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\exercising\\w3resource-basicAlgorithm\\ex071\\ex071\\obj\\",
+      "projectPath": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex071\\ex071\\ex071.csproj",
+      "packagesPath": "C:\\Users\\Riquinho\\.nuget\\packages\\",
+      "outputPath": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex071\\ex071\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Riquinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
