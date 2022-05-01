@@ -14,8 +14,17 @@ namespace ex065
             //"Python"
             //Expected Output:
             //ell
-
+            //
             //ytho
+
+            Console.WriteLine(withoutFirstLast("Hello"));
+            Console.WriteLine(withoutFirstLast("Hi"));
+            Console.WriteLine(withoutFirstLast("Python"));
+        }
+
+        public static string withoutFirstLast(string str)
+        {
+            return str.Length >= 2 ? str.Substring(1, str.Length - 2) : str;
         }
     }
 }
