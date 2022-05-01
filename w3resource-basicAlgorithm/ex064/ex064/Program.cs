@@ -14,6 +14,14 @@ namespace ex064
             //Expected Output:
             //He
             //H
+
+            Console.WriteLine(firstHalf("Hello"));
+            Console.WriteLine(firstHalf("Hi"));
+        }
+
+        public static string firstHalf(string str)
+        {
+            return str.Length >= 2 ? str.Substring(0, str.Length / 2) : str;
         }
     }
 }
