@@ -14,6 +14,14 @@ namespace ex068
             //Expected Output:
             //lloHe
             //JS
+
+            Console.WriteLine(firstTwoToEnd("Hello"));
+            Console.WriteLine(firstTwoToEnd("JS"));
+        }
+
+        public static string firstTwoToEnd(string str)
+        {
+            return str.Length > 2 ? str.Substring(2) + str.Substring(0, 2) : str;
         }
     }
 }
