@@ -19,6 +19,16 @@ namespace ex072
             //True
             //True
             //False
+
+            Console.WriteLine(onInTheEnd("Hello"));
+            Console.WriteLine(onInTheEnd("Python"));
+            Console.WriteLine(onInTheEnd("on"));
+            Console.WriteLine(onInTheEnd("o"));
+        }
+
+        public static bool onInTheEnd(string str)
+        {
+            return str.Length >= 2 && str.Substring(str.Length - 2) == "on" ? true : false; 
         }
     }
 }
