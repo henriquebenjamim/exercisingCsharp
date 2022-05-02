@@ -16,6 +16,16 @@ namespace ex074
             //el
             //th
             //on
+
+            Console.WriteLine(newTwoLen("Hello", 1));
+            Console.WriteLine(newTwoLen("Python", 2));
+            Console.WriteLine(newTwoLen("on", 1));
+        }
+
+        public static string newTwoLen(string str, int indNumber)
+        {
+            int nextIndNumber = indNumber + 1;
+            return str.Length > 2 ? str.Substring(indNumber, 2) : str;
         }
     }
 }
