@@ -16,6 +16,16 @@ namespace ex075
             //ell
             //yth
             //abc
+
+            Console.WriteLine(threeStr("Hello"));
+            Console.WriteLine(threeStr("Python"));
+            Console.WriteLine(threeStr("abc"));
+        }
+
+        public static string threeStr(string str)
+        {
+            int middleStr = str.Length / 2;
+            return str.Length > 3 ? middleStr % 2 == 0 ? str.Substring(middleStr -1, middleStr + 1) : str.Substring(middleStr - 2, middleStr ) : str;
         }
     }
 }
