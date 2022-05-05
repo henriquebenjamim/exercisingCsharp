@@ -21,6 +21,18 @@ namespace ex080
 
             //xyz
             //xyz
+
+            Console.WriteLine(revertingStr("abc"));
+            Console.WriteLine(revertingStr("abcdef"));
+            Console.WriteLine(revertingStr("C"));
+            Console.WriteLine(revertingStr("xyz"));
+            Console.WriteLine(revertingStr("xyzsder"));
+        }
+
+        public static string revertingStr(string str)
+        {
+            return str.Length >=3 && str.Substring(0, 3) == "abc" ? "abc" :
+                str.Length >= 3 && str.Substring(0, 3) == "xyz" ? "xyz" : "";
         }
     }
 }
