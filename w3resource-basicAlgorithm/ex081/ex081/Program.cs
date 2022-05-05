@@ -16,6 +16,15 @@ namespace ex081
             //True
             //False
             //True
+
+            Console.WriteLine(firstLastTwoEquals("abab"));
+            Console.WriteLine(firstLastTwoEquals("abcdef"));
+            Console.WriteLine(firstLastTwoEquals("xyzsderxy"));
+        }
+
+        public static bool firstLastTwoEquals(string str)
+        {
+            return str.Length >= 4 ? str.Substring(0, 2) == str.Substring(str.Length -2, 2) : false;
         }
     }
 }
