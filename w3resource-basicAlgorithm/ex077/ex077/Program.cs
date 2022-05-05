@@ -19,6 +19,18 @@ namespace ex077
             //PP
             //JS
             //C#
+
+            Console.WriteLine(firstLast("Hello", "Hi"));
+            Console.WriteLine(firstLast("Python", "PHP"));
+            Console.WriteLine(firstLast("JS", "JS"));
+            Console.WriteLine(firstLast("Csharp", ""));
+        }
+
+        public static string firstLast(string str1, string str2)
+        {
+            return str1.Length >= 1 && str2.Length >= 1 ? str1.Substring(0, 1) + str2.Substring(str2.Length -1) : 
+                str1.Length < 1 ? "#" : 
+                str2.Length < 1 ? str1.Substring(0, 1) + "#" : "";
         }
     }
 }
