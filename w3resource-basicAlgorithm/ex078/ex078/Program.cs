@@ -16,6 +16,15 @@ namespace ex078
             //abcat
             //pythonphp
             //phphp
+
+            Console.WriteLine(concatLowerStr("abc", "cat"));
+            Console.WriteLine(concatLowerStr("python", "php"));
+            Console.WriteLine(concatLowerStr("php", "php"));
+        }
+
+        public static string concatLowerStr(string str1, string str2)
+        {
+            return str1.Substring(str1.Length - 1) == str2.Substring(0, 1) ? str1 + str2.Substring(1, str2.Length - 1) : str1 + str2;
         }
     }
 }
