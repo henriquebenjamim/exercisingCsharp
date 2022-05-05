@@ -19,6 +19,16 @@ namespace ex076
             //Py
             //a#
             //##
+
+            Console.WriteLine(twoLen("Hello"));
+            Console.WriteLine(twoLen("Python"));
+            Console.WriteLine(twoLen("a"));
+            Console.WriteLine(twoLen(""));
+        }
+
+        public static string twoLen(string str)
+        {
+            return str.Length > 2 ? str.Substring(0, 2) : str.Length == 1 ? str + "#" : "##";
         }
     }
 }
