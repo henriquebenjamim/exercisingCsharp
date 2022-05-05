@@ -20,6 +20,20 @@ namespace ex079
             //PPH
             //SJ
             //C
+
+            Console.WriteLine(swapTwoLast("Hello"));
+            Console.WriteLine(swapTwoLast("Python"));
+            Console.WriteLine(swapTwoLast("PHP"));
+            Console.WriteLine(swapTwoLast("JS"));
+            Console.WriteLine(swapTwoLast("C"));
+        }
+
+        public static string swapTwoLast(string str)
+        {
+            int lastInd = str.Length - 1;
+            int beforeLastInd = str.Length - 2;
+            return str.Length > 2 ? $"{str.Substring(0, lastInd -1 )}{str.Substring(lastInd)}{str.Substring(beforeLastInd, 1)}":
+                str.Length == 2 ? str.Substring(lastInd) + str.Substring(beforeLastInd, 1) : str;
         }
     }
 }
