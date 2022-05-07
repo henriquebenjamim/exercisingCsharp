@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex091
 {
@@ -14,6 +15,14 @@ namespace ex091
             //Expected Output:
             //150
             //10
+
+            Console.WriteLine(sumArr(new[] { 10, 20, 30, 40, 50}));
+            Console.WriteLine(sumArr(new[] { 10, 20, -30, -40, 50}));
+        }
+
+        public static int sumArr(int[] numbersArr)
+        {
+            return numbersArr.Sum(x => x);
         }
     }
 }
