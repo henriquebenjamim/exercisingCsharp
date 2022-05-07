@@ -18,6 +18,19 @@ namespace ex086
             //python
             //bcd
             //jython
+
+            Console.WriteLine(firstOrLastA("abcab"));
+            Console.WriteLine(firstOrLastA("python"));
+            Console.WriteLine(firstOrLastA("abcda"));
+            Console.WriteLine(firstOrLastA("jython"));
+        }
+
+        public static string firstOrLastA(string str)
+        {
+            return str.Length > 2 && str.Substring(0, 1) == "a" && str.Substring(str.Length - 1) == "a" ? str.Substring(1, str.Length - 2) :
+                str.Substring(0, 1) == "a" ? str.Substring(1) :
+                str.Substring(str.Length - 1) == "a" ? str.Substring(0, str.Length - 2) :
+                str;
         }
     }
 }
