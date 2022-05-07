@@ -15,6 +15,14 @@ namespace ex084
             //Expected Output:
             //cab
             //Python
+
+            Console.WriteLine(firstTwoEqualsTwoEnd("abcab"));
+            Console.WriteLine(firstTwoEqualsTwoEnd("Python"));
+        }
+
+        public static string firstTwoEqualsTwoEnd(string str)
+        {
+            return str.Length > 4 && str.Substring(0, 2) == str.Substring(str.Length - 2, 2) ? str.Substring(2): str;
         }
     }
 }
