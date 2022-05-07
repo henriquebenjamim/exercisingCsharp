@@ -12,6 +12,16 @@ namespace ex096
             //{ 10, 20, -30, -40, 30 }
             //Expected Output :
             //New array: 10 30
+
+            Console.WriteLine(firstLastElementArr(new[] { 10, 20, -30, -40, 30}));
+            Console.WriteLine(firstLastElementArr(new[] { 1}));
+            
+        }
+
+        public static string firstLastElementArr(int[] numbersArr)
+        {
+            return numbersArr.Length >= 2 ? $"New array: {numbersArr[0]} {numbersArr[numbersArr.Length - 1]}" : 
+                numbersArr.Length == 1 ? $"New array: {numbersArr[0]} {numbersArr[0]}" : "This array doesn't have any value.";
         }
     }
 }

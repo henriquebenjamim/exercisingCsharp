@@ -1,0 +1,16 @@
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\bin\Debug\net5.0\ex096.exe
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\bin\Debug\net5.0\ex096.deps.json
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\bin\Debug\net5.0\ex096.runtimeconfig.json
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\bin\Debug\net5.0\ex096.runtimeconfig.dev.json
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\bin\Debug\net5.0\ex096.dll
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\bin\Debug\net5.0\ex096.pdb
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.csproj.AssemblyReference.cache
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.GeneratedMSBuildEditorConfig.editorconfig
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.AssemblyInfoInputs.cache
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.AssemblyInfo.cs
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.csproj.CoreCompileInputs.cache
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.dll
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\refint\ex096.dll
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.pdb
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ex096.genruntimeconfig.cache
+C:\exer\exercisingCsharp\w3resource-basicAlgorithm\ex096\ex096\obj\Debug\net5.0\ref\ex096.dll
