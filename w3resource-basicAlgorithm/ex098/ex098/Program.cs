@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ex098
 {
@@ -16,6 +17,15 @@ namespace ex098
             //False
             //False
             //True
+
+            Console.WriteLine(notFifteenOrTwentyRange(new[] { 12, 20}));
+            Console.WriteLine(notFifteenOrTwentyRange(new[] { 14, 15}));
+            Console.WriteLine(notFifteenOrTwentyRange(new[] { 11, 21}));
+        }
+
+        public static bool notFifteenOrTwentyRange(int[] numberArr)
+        {
+            return numberArr.Length == 2 && numberArr.Any(x => x == 15 || x == 20) ? false : true;
         }
     }
 }
