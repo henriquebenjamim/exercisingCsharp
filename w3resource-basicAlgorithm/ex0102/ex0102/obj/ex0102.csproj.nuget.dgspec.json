@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex101\\ex101\\ex101.csproj": {}
+    "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex0102\\ex0102\\ex0102.csproj": {}
   },
   "projects": {
-    "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex101\\ex101\\ex101.csproj": {
+    "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex0102\\ex0102\\ex0102.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex101\\ex101\\ex101.csproj",
-        "projectName": "ex101",
-        "projectPath": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex101\\ex101\\ex101.csproj",
+        "projectUniqueName": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex0102\\ex0102\\ex0102.csproj",
+        "projectName": "ex0102",
+        "projectPath": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex0102\\ex0102\\ex0102.csproj",
         "packagesPath": "C:\\Users\\Riquinho\\.nuget\\packages\\",
-        "outputPath": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex101\\ex101\\obj\\",
+        "outputPath": "C:\\exer\\exercisingCsharp\\w3resource-basicAlgorithm\\ex0102\\ex0102\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Riquinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
