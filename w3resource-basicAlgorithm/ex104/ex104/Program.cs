@@ -14,6 +14,18 @@ namespace ex104
             //Array 1: 10, 20, 30
             //Array 2: 40, 50, 60
             //New array: 10 20 30 40 50 60
+
+            int[] newArr = newNumberArr(new[] { 10, 20, 30 }, new[] { 40, 50, 60 });
+            Console.Write("New array: ");
+            foreach (int value in newArr)
+            {
+                Console.Write($"{value} ");
+            }
+        }
+
+        public static int[] newNumberArr(int[] numberOneArr, int[] numberTwoArr)
+        {
+            return new int[] { numberOneArr[0], numberOneArr[1], numberOneArr[2], numberTwoArr[0], numberTwoArr[1], numberTwoArr[2] };
         }
     }
 }
